@@ -1,0 +1,12 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gradle
+.idea
+build.gradle
+build/
+gradle/
+gradlew
+gradlew.bat
+settings.gradle
+src/main/java/com/springboot/webservice/Application.java
+src/main/resources/
+src/test/resources/
