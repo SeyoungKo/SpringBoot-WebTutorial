@@ -15,7 +15,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @RunWith(SpringRunner.class) // Junit 실행자 외 다른 실행자(SpringRunner) 실행  = 연결자 역할
-@WebMvcTest // Web관련에 집중하는 어노테이션 (@Controller)
+@WebMvcTest // Web관련에 집중하는 어노테이션 (@Controller) - JPA가 작동하지 않을 때 테스트 수행시 사용
 public class HelloControllerTest {
     @Autowired
     private MockMvc mvc; // API 테스트

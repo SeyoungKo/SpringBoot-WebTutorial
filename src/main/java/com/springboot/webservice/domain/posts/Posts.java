@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 @Getter // 모든 필드의 getter를 자동 생성
-@Entity // 테이블과 링크되는 클래스명
+@Entity // 테이블과 링크되는 클래스명 (데이터베이스와 맞닿은 핵심 클래스)
 @NoArgsConstructor // 기본 생성자 자동 생성
 public class Posts {
 
