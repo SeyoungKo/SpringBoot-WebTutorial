@@ -3,9 +3,8 @@ package com.springboot.webservice.web.dto;
 import com.springboot.webservice.domain.posts.Posts;
 import lombok.Getter;
 
-@Getter
-
 // === controller에 entity에 저장된 데이터를 전달하는 ResponseDto ===
+@Getter
 public class PostsResponseDto {
     private Long id;
     private String title;
