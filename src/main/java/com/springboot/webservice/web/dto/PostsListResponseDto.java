@@ -2,7 +2,6 @@ package com.springboot.webservice.web.dto;
 
 import com.springboot.webservice.domain.posts.Posts;
 import lombok.Getter;
-
 import java.time.LocalDateTime;
 
 // findAll() 호출시 List 반환
