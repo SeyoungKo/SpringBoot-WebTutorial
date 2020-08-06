@@ -47,7 +47,10 @@ public class PostsService {
         return new PostsResponseDto(entity);
     }
 
+<<<<<<< HEAD
     // findAll
+=======
+>>>>>>> develop
     @Transactional(readOnly=true)
     public List<PostsListResponseDto> findAllDesc(){
         // postsRepository 결과의 stream을 map을 통해 PostsListResponseDto로 변환해 List로 반환
@@ -55,6 +58,7 @@ public class PostsService {
                 .map(PostsListResponseDto::new)
                 .collect(Collectors.toList());
     }
+<<<<<<< HEAD
 
     // delete
     @Transactional
@@ -65,4 +69,6 @@ public class PostsService {
 
         postsRepository.delete(posts); // JPA에서 지원하는 delete 메소드를 사용한다.
     }
+=======
+>>>>>>> develop
 }
