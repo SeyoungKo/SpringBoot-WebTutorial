@@ -2,13 +2,16 @@ package com.springboot.webservice.service;
 
 import com.springboot.webservice.domain.posts.Posts;
 import com.springboot.webservice.domain.posts.PostsRepository;
+import com.springboot.webservice.web.dto.PostsListResponseDto;
 import com.springboot.webservice.web.dto.PostsResponseDto;
 import com.springboot.webservice.web.dto.PostsSaveRequestDto;
 import com.springboot.webservice.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-import javax.transaction.Transactional;
+import java.util.List;
+import java.util.stream.Collectors;
 
 @RequiredArgsConstructor
 @Service
@@ -40,5 +43,13 @@ public class PostsService {
                 .orElseThrow(()->new IllegalArgumentException("해당 사용자가 없습니다. id="+id));
 
         return new PostsResponseDto(entity);
+    }
+
+    @Transactional(readOnly=true)
+    public List<PostsListResponseDto> findAllDesc(){
+        // postsRepository 결과의 stream을 map을 통해 PostsListResponseDto로 변환해 List로 반환
+        return postsRepository.findAllDesc().stream()
+                .map(PostsListResponseDto::new)
+                .collect(Collectors.toList());
     }
 }

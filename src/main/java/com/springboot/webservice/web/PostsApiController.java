@@ -14,7 +14,7 @@ public class PostsApiController {
 
     // insert (save)
     @PostMapping("/api/v1/posts")
-    public Long save(@RequestBody PostsSaveRequestDto requestDto) {
+    public Long save(@RequestBody PostsSaveRequestDto requestDto) { // HTTP 요청 내용을 posts 객체에 매핑
         return postsService.save(requestDto);
     }
 
