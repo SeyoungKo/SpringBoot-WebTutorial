@@ -1,10 +1,8 @@
 package com.springboot.webservice.web;
 
 import com.springboot.webservice.service.PostsService;
-<<<<<<< HEAD
+
 import com.springboot.webservice.web.dto.PostsResponseDto;
-=======
->>>>>>> develop
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -26,8 +24,8 @@ public class IndexController {
     @GetMapping("/posts/save")
     public String postsSave(){
         return "posts-save";
+
     }
-<<<<<<< HEAD
 
     @GetMapping("/posts/update/{id}")
     public String postsUpdate(@PathVariable Long id, Model model){
@@ -35,6 +33,4 @@ public class IndexController {
         model.addAttribute("post", dto);
         return "posts-update";
     }
-=======
->>>>>>> develop
 }
