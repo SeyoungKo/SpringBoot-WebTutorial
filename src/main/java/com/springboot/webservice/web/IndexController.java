@@ -1,5 +1,6 @@
 package com.springboot.webservice.web;
 
+import com.springboot.webservice.config.auth.LoginUser;
 import com.springboot.webservice.config.auth.dto.SessionUser;
 import com.springboot.webservice.domain.user.User;
 import com.springboot.webservice.service.PostsService;
@@ -20,10 +21,13 @@ public class IndexController {
     private final PostsService postsService;
     private final HttpSession httpSession;
 
+    // PostService.findAllDesc() 결과를 index.mustache에 전달
     @GetMapping("/")
-    public String index(Model model){ // PostService.findAllDesc() 결과를 index.mustache에 전달
+    public String index(Model model, @LoginUser SessionUser user){  // @LoginUser ~ - httpSession.getAttribute("user")로 가져오던 세션 값을 개선
         model.addAttribute("posts", postsService.findAllDesc());
-        SessionUser user= (SessionUser) httpSession.getAttribute("user"); // CustomOAuth2UserService에서 로그인 후 세션에 저장한 정보들을 가져온다.
+
+        // --- @LoginUser의 사용으로 개선되어 주석처리 (세션값을 가져오는 부분이 중복적으로 사용될 수 있으므로 개선) ---
+//        SessionUser user= (SessionUser) httpSession.getAttribute("user"); // CustomOAuth2UserService에서 로그인 후 세션에 저장한 정보들을 가져온다.
 
         if(user!=null){
             model.addAttribute("userName", user.getName()); // index.mustache에 userName 값 반환
