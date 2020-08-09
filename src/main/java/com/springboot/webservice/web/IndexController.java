@@ -1,5 +1,7 @@
 package com.springboot.webservice.web;
 
+import com.springboot.webservice.config.auth.dto.SessionUser;
+import com.springboot.webservice.domain.user.User;
 import com.springboot.webservice.service.PostsService;
 
 import com.springboot.webservice.web.dto.PostsResponseDto;
@@ -9,15 +11,23 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
+import javax.servlet.http.HttpSession;
+
 @RequiredArgsConstructor // 롬복 생성자로 주입받기(의존성 관계가 변경될 때마다 생성자 코드를 번거롭게 수정하지 않아도 된다.)
 @Controller // 클라이언트 요청에 뷰를 반환하는 역할
 public class IndexController {
 
     private final PostsService postsService;
+    private final HttpSession httpSession;
 
     @GetMapping("/")
     public String index(Model model){ // PostService.findAllDesc() 결과를 index.mustache에 전달
         model.addAttribute("posts", postsService.findAllDesc());
+        SessionUser user= (SessionUser) httpSession.getAttribute("user"); // CustomOAuth2UserService에서 로그인 후 세션에 저장한 정보들을 가져온다.
+
+        if(user!=null){
+            model.addAttribute("userName", user.getName()); // index.mustache에 userName 값 반환
+        }
         return "index"; //src/main/resources/templates/index.mustache 반환
     }
 
