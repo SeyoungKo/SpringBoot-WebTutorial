@@ -1,10 +1,12 @@
 package com.springboot.webservice.web;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.springboot.webservice.domain.posts.Posts;
 import com.springboot.webservice.domain.posts.PostsRepository;
 import com.springboot.webservice.web.dto.PostsSaveRequestDto;
 import com.springboot.webservice.web.dto.PostsUpdateRequestDto;
 import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,20 +14,40 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.MediaType;
+import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+import org.springframework.web.context.WebApplicationContext;
 
+import javax.print.attribute.standard.Media;
 import java.util.List;
 
-import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.springframework.security.test.web.servlet.setup.SecurityMockMvcConfigurers.springSecurity;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @RunWith(SpringRunner.class) // Junit 실행자 외 다른 실행자(SpringRunner) 실행  = 연결자 역할
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT) //랜덤 포트로 실행
 public class PostsApiControllerTest {
     @LocalServerPort
     private int port;
+
+    @Autowired
+    private WebApplicationContext context;
+
+    private MockMvc mvc;
+
+    @Before // 매번 테스트가 시작되기 전에 MockMvc 인스턴스를 생성한다.
+    public void setUp(){
+        mvc = MockMvcBuilders
+                .webAppContextSetup(context)
+                .apply(springSecurity())
+                .build();
+    }
 
     // JPA까지 한번에 테스트할 때 @SpringBootTest와 함께 사용
     @Autowired
@@ -41,6 +63,7 @@ public class PostsApiControllerTest {
 
     // save test
     @Test
+    @WithMockUser(roles="USER") // roles에 USER 권한을 부여해 인증된 사용자를 테스트하기 위해 인증된 모의 사용자를 만든다.
     public void Posts_등록() throws Exception{
         String title = "title";
         String content = "content";
@@ -54,12 +77,17 @@ public class PostsApiControllerTest {
         String url = "http://localhost:" + port + "/api/v1/posts";
 
         // when
-        ResponseEntity<Long> responseEntity = restTemplate.postForEntity(url,requestDto, Long.class);
+//        ResponseEntity<Long> responseEntity = restTemplate.postForEntity(url,requestDto, Long.class);
+
+        // 생성된 MockMvc를 통해 API를 테스트한다. body부분은 문자열로 표현하기 위해 JSON으로 변환한다.
+        mvc.perform(post(url)
+                .contentType(MediaType.APPLICATION_JSON_UTF8)
+                .content(new ObjectMapper().writeValueAsString(requestDto)))
+                .andExpect(status().isOk());
 
         // then
-        assertThat(responseEntity.getStatusCode()).isEqualTo(HttpStatus.OK);
-        assertThat(responseEntity.getBody()).isGreaterThan(0L);
-
+//        assertThat(responseEntity.getStatusCode()).isEqualTo(HttpStatus.OK);
+//        assertThat(responseEntity.getBody()).isGreaterThan(0L);
 
         List<Posts> all = postsRepository.findAll();
         assertThat(all.get(0).getTitle()).isEqualTo(title);
@@ -67,6 +95,7 @@ public class PostsApiControllerTest {
     }
 
     // update test
+    @WithMockUser(roles="USER") // roles에 USER 권한을 부여해 인증된 사용자를 테스트하기 위해 인증된 모의 사용자를 만든다.
     @Test
     public void Posts_수정() throws Exception{
         //given
@@ -90,12 +119,17 @@ public class PostsApiControllerTest {
         HttpEntity<PostsUpdateRequestDto> requestEntity = new HttpEntity<>(requestDto);
 
         //when
-        ResponseEntity<Long> responseEntity = restTemplate.exchange(url, HttpMethod.PUT,
-                                                            requestEntity, Long.class);
+//        ResponseEntity<Long> responseEntity = restTemplate.exchange(url, HttpMethod.PUT,
+//                                                            requestEntity, Long.class);
+        // 생성된 MockMvc를 통해 API를 테스트한다. body부분은 문자열로 표현하기 위해 JSON으로 변환한다.
+        mvc.perform(put(url)
+            .contentType(MediaType.APPLICATION_JSON_UTF8)
+            .content(new ObjectMapper().writeValueAsString(requestDto)))
+            .andExpect(status().isOk());
 
         //then
-        assertThat(responseEntity.getStatusCode()).isEqualTo(HttpStatus.OK);
-        assertThat(responseEntity.getBody()).isGreaterThan(0L);
+//        assertThat(responseEntity.getStatusCode()).isEqualTo(HttpStatus.OK);
+//        assertThat(responseEntity.getBody()).isGreaterThan(0L);
 
         List<Posts> all = postsRepository.findAll();
         assertThat(all.get(0).getTitle()).isEqualTo(expectedTitle);
