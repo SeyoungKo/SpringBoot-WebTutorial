@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="464b1be0-76cf-4515-95a2-7f79df6452dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/web/HelloControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/web/HelloControllerTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="default@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="springboot-webservice-tutorial" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="springboot-webservice-tutorial" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="springboot-webservice-tutorial" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="springboot-webservice-tutorial" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fwAgoaV0VjrmRd1XioWxrGacnb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="h2&#10;mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/src/main/resources/application-oauth.properties&#10;/Users/seyoung/SpringBoot-WebTutorial/build.gradle&#10;/Users/seyoung/SpringBoot-WebTutorial/src/main/java/com/springboot/webservice/Application.java&#10;true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.springboot.webservice.web" />
+      <recent name="com.springboot.webservice.domain.posts" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.springboot.webservice.config.auth" />
+      <recent name="com.springboot.webservice.config" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.HelloControllerTest">
+    <configuration name="HelloControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.springboot.webservice.web.HelloControllerTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="IndexControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.springboot.webservice.web.IndexControllerTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringBoot-WebTutorial [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringBoot-WebTutorial [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-webservice-tutorial.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.webservice.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.webservice.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.HelloControllerTest" />
+        <item itemvalue="Gradle.SpringBoot-WebTutorial [test]" />
+        <item itemvalue="Gradle.IndexControllerTest" />
+        <item itemvalue="Gradle.SpringBoot-WebTutorial [dependencies]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="464b1be0-76cf-4515-95a2-7f79df6452dd" name="Default Changelist" comment="" />
+      <created>1596073760677</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596073760677</updated>
+      <workItem from="1596073762611" duration="2077000" />
+      <workItem from="1596075941600" duration="5872000" />
+      <workItem from="1596157473040" duration="9132000" />
+      <workItem from="1596272041029" duration="5061000" />
+      <workItem from="1596284978673" duration="6428000" />
+      <workItem from="1596447566483" duration="961000" />
+      <workItem from="1596450136970" duration="368000" />
+      <workItem from="1596450511326" duration="5747000" />
+      <workItem from="1596678438584" duration="7885000" />
+      <workItem from="1596785278508" duration="15390000" />
+      <workItem from="1596983302134" duration="5064000" />
+      <workItem from="1597064764387" duration="9768000" />
+      <workItem from="1597115890712" duration="227000" />
+      <workItem from="1597116375490" duration="634000" />
+      <workItem from="1597117065110" duration="70000" />
+      <workItem from="1597117144478" duration="20000" />
+      <workItem from="1597117196957" duration="32000" />
+      <workItem from="1597117304704" duration="202000" />
+      <workItem from="1597117909490" duration="337000" />
+      <workItem from="1597118283489" duration="93000" />
+      <workItem from="1597118644995" duration="44000" />
+      <workItem from="1597197377841" duration="53000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="75465000" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="102" key="#Plugins" timestamp="1597119181069">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="320" y="102" key="#Plugins/0.23.1440.827@0.23.1440.827" timestamp="1597119181069" />
+    <state x="330" y="159" key="DBNavigator.ConnectionInfoDialog" timestamp="1597119927969">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="330" y="159" key="DBNavigator.ConnectionInfoDialog/0.23.1440.827@0.23.1440.827" timestamp="1597119927969" />
+    <state x="458" y="369" width="527" height="135" key="DBNavigator.CreateRenameConsoleDialog" timestamp="1597128476560">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="458" y="369" width="527" height="135" key="DBNavigator.CreateRenameConsoleDialog/0.23.1440.827@0.23.1440.827" timestamp="1597128476560" />
+    <state x="616" y="139" key="DBNavigator.DatasetFilterDialog" timestamp="1597205162584">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="616" y="139" key="DBNavigator.DatasetFilterDialog/0.23.1440.828@0.23.1440.828" timestamp="1597205162584" />
+    <state x="825" y="324" width="544" height="247" key="DBNavigator.IdleConnectionDialog" timestamp="1597200936637">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="825" y="324" width="544" height="247" key="DBNavigator.IdleConnectionDialog/0.23.1440.828@0.23.1440.828" timestamp="1597200936637" />
+    <state x="258" y="98" key="DBNavigator.ProjectSettingsDialog" timestamp="1597254590701">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="258" y="98" key="DBNavigator.ProjectSettingsDialog/0.23.1440.827@0.23.1440.827" timestamp="1597129668054" />
+    <state x="258" y="98" key="DBNavigator.ProjectSettingsDialog/0.23.1440.828@0.23.1440.828" timestamp="1597208812759" />
+    <state x="258" y="98" key="DBNavigator.ProjectSettingsDialog/0.23.1440.829@0.23.1440.829" timestamp="1597254590701" />
+    <state x="472" y="337" key="DBNavigator.ResultSetRecordViewerDialog" timestamp="1597205192149">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="472" y="337" key="DBNavigator.ResultSetRecordViewerDialog/0.23.1440.827@0.23.1440.827" timestamp="1597129110993" />
+    <state x="472" y="337" key="DBNavigator.ResultSetRecordViewerDialog/0.23.1440.828@0.23.1440.828" timestamp="1597205192149" />
+    <state width="1358" height="117" key="GridCell.Tab.0.bottom" timestamp="1597215861962">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1358" height="117" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1597205185123" />
+    <state width="1358" height="117" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1597215861962" />
+    <state width="1358" height="117" key="GridCell.Tab.0.center" timestamp="1597215861960">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1358" height="117" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1597205185122" />
+    <state width="1358" height="117" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1597215861960" />
+    <state width="1358" height="117" key="GridCell.Tab.0.left" timestamp="1597215861959">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1358" height="117" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1597205185121" />
+    <state width="1358" height="117" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1597215861959" />
+    <state width="1358" height="117" key="GridCell.Tab.0.right" timestamp="1597215861961">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1358" height="117" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1597205185122" />
+    <state width="1358" height="117" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1597215861961" />
+    <state x="229" y="75" key="SettingsEditor" timestamp="1597119136686">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="229" y="75" key="SettingsEditor/0.23.1440.827@0.23.1440.827" timestamp="1597119136686" />
+    <state x="385" y="174" width="670" height="678" key="search.everywhere.popup" timestamp="1597255211328">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="385" y="174" width="670" height="676" key="search.everywhere.popup/0.23.1440.827@0.23.1440.827" timestamp="1597119231164" />
+    <state x="385" y="174" width="670" height="678" key="search.everywhere.popup/0.23.1440.829@0.23.1440.829" timestamp="1597255211328" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>test|springboot-webservice-tutorial</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
