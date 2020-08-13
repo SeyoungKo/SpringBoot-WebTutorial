@@ -23,13 +23,7 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="e5fc21e1-c3a8-4fe0-a418-eb031e3fdc8c">
-        <schema name="innodb" object-types="table, view, procedure, function" />
-        <schema name="mysql" object-types="table, view, dataset trigger, constraint, column, procedure, function, index" />
-        <schema name="springboot_webtutorial" object-types="table, view, dataset trigger, constraint, column, procedure, function, index" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="e5fc21e1-c3a8-4fe0-a418-eb031e3fdc8c">

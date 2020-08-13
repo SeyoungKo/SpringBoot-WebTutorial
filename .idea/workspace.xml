@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="464b1be0-76cf-4515-95a2-7f79df6452dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springboot/webservice/web/dto/HelloResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-real.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/web/dto/HelloResponseDtoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
@@ -18,21 +14,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/springboot/webservice/domain/posts/PostsRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/springboot/webservice/domain/posts/PostsRepositoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/springboot/webservice/web/HelloControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/springboot/webservice/web/HelloControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/springboot/webservice/web/IndexControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/springboot/webservice/web/IndexControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/springboot/webservice/web/PostsApiControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/springboot/webservice/web/PostsApiControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.springboot.webservice.web.HelloControllerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.springboot.webservice.web.HelloControllerTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.springboot.webservice.web.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.springboot.webservice.web.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.springboot.webservice.web.HelloControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.springboot.webservice.web.HelloControllerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/domain/posts/PostsRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/domain/posts/PostsRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/web/HelloControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/web/HelloControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/web/IndexControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/web/IndexControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/web/PostsApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/web/PostsApiControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +98,153 @@
   <component name="ProjectId" id="1fwAgoaV0VjrmRd1XioWxrGacnb" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-webservice-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-WebTutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-webservice-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-WebTutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-webservice-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-WebTutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-webservice-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-WebTutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-webservice-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-WebTutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-webservice-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-WebTutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-webservice-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-WebTutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-webservice-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-WebTutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-webservice-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-WebTutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-webservice-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-WebTutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-webservice-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-WebTutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-webservice-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-WebTutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-webservice-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-WebTutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-webservice-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-WebTutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-webservice-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-WebTutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-webservice-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-WebTutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-webservice-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-WebTutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-webservice-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-WebTutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -298,12 +427,12 @@
       <workItem from="1597118283489" duration="93000" />
       <workItem from="1597118644995" duration="44000" />
       <workItem from="1597197377841" duration="53000" />
-      <workItem from="1597282995962" duration="4712000" />
+      <workItem from="1597282995962" duration="5208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80177000" />
+    <option name="totallyTimeSpent" value="80673000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -340,36 +469,36 @@
     </state>
     <state x="472" y="337" key="DBNavigator.ResultSetRecordViewerDialog/0.23.1440.827@0.23.1440.827" timestamp="1597129110993" />
     <state x="472" y="337" key="DBNavigator.ResultSetRecordViewerDialog/0.23.1440.828@0.23.1440.828" timestamp="1597205192149" />
-    <state width="1398" height="252" key="GridCell.Tab.0.bottom" timestamp="1597290099785">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state width="1398" height="252" key="GridCell.Tab.0.bottom" timestamp="1597293016826">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state width="1398" height="252" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1597290099785" />
-    <state width="1358" height="117" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1597215861962" />
-    <state width="1398" height="252" key="GridCell.Tab.0.center" timestamp="1597290099784">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state width="1398" height="252" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1597293016826" />
+    <state width="1398" height="252" key="GridCell.Tab.0.center" timestamp="1597293016825">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state width="1398" height="252" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1597290099784" />
-    <state width="1358" height="117" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1597215861960" />
-    <state width="1398" height="252" key="GridCell.Tab.0.left" timestamp="1597290099783">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state width="1398" height="252" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1597293016825" />
+    <state width="1398" height="252" key="GridCell.Tab.0.left" timestamp="1597293016825">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state width="1398" height="252" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1597290099783" />
-    <state width="1358" height="117" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1597215861959" />
-    <state width="1398" height="252" key="GridCell.Tab.0.right" timestamp="1597290099784">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state width="1398" height="252" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1597293016825" />
+    <state width="1398" height="252" key="GridCell.Tab.0.right" timestamp="1597293016826">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state width="1398" height="252" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1597290099784" />
-    <state width="1358" height="117" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1597215861961" />
+    <state width="1398" height="252" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1597293016826" />
     <state x="229" y="75" key="SettingsEditor" timestamp="1597119136686">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="229" y="75" key="SettingsEditor/0.23.1440.827@0.23.1440.827" timestamp="1597119136686" />
-    <state x="385" y="174" width="670" height="678" key="search.everywhere.popup" timestamp="1597292209832">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state x="385" y="174" width="670" height="678" key="search.everywhere.popup" timestamp="1597292985341">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="385" y="174" width="670" height="676" key="search.everywhere.popup/0.23.1440.827@0.23.1440.827" timestamp="1597119231164" />
     <state x="385" y="174" width="670" height="678" key="search.everywhere.popup/0.23.1440.828@0.23.1440.828" timestamp="1597292209832" />
-    <state x="385" y="174" width="670" height="678" key="search.everywhere.popup/0.23.1440.829@0.23.1440.829" timestamp="1597255211328" />
+    <state x="385" y="174" width="670" height="678" key="search.everywhere.popup/0.23.1440.829@0.23.1440.829" timestamp="1597292985341" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
