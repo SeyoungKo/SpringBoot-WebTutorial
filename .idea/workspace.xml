@@ -4,17 +4,11 @@
     <list default="true" id="464b1be0-76cf-4515-95a2-7f79df6452dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/domain/posts/PostsRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/domain/posts/PostsRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +279,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SpringBoot-WebTutorial [test]">
+  <component name="RunManager" selected="Gradle.PostsRepositoryTest">
     <configuration name="HelloControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -346,12 +340,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HelloResponseDtoTest.롬복_테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PostsRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.springboot.webservice.web.dto.HelloResponseDtoTest.롬복_테스트&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.springboot.webservice.domain.posts.PostsRepositoryTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -387,11 +381,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PostsRepositoryTest" />
         <item itemvalue="Gradle.SpringBoot-WebTutorial [test]" />
         <item itemvalue="Gradle.HelloControllerTest" />
         <item itemvalue="Gradle.HelloControllerTest.helloDto가_리턴된다" />
         <item itemvalue="Gradle.HelloControllerTest.return_hello" />
-        <item itemvalue="Gradle.HelloResponseDtoTest.롬복_테스트" />
       </list>
     </recent_temporary>
   </component>
@@ -493,11 +487,11 @@
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="229" y="75" key="SettingsEditor/0.23.1440.827@0.23.1440.827" timestamp="1597119136686" />
-    <state x="385" y="174" width="670" height="678" key="search.everywhere.popup" timestamp="1597292985341">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state x="385" y="174" width="670" height="678" key="search.everywhere.popup" timestamp="1597294457384">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="385" y="174" width="670" height="676" key="search.everywhere.popup/0.23.1440.827@0.23.1440.827" timestamp="1597119231164" />
-    <state x="385" y="174" width="670" height="678" key="search.everywhere.popup/0.23.1440.828@0.23.1440.828" timestamp="1597292209832" />
+    <state x="385" y="174" width="670" height="678" key="search.everywhere.popup/0.23.1440.828@0.23.1440.828" timestamp="1597294457384" />
     <state x="385" y="174" width="670" height="678" key="search.everywhere.popup/0.23.1440.829@0.23.1440.829" timestamp="1597292985341" />
   </component>
   <component name="antWorkspaceConfiguration">
