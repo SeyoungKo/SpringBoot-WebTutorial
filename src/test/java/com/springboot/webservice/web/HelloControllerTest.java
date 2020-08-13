@@ -40,7 +40,7 @@ public class HelloControllerTest {
 
     @WithMockUser(roles="USER") // 모의 사용자 생성 (roles= USER 권한을 부여한다.)
     @Test
-    public void return_helloDto() throws Exception {
+    public void helloDto가_리턴된다() throws Exception {
         String name = "hello";
         int amount = 1000;
 
@@ -49,7 +49,7 @@ public class HelloControllerTest {
                         .param("name", name)
                         .param("amount", String.valueOf(amount)))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("A$.name", is(name)))
+                .andExpect(jsonPath("$.name", is(name)))
                 .andExpect(jsonPath("$.amount", is(amount)));
     }
 }

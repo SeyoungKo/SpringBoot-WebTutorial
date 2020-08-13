@@ -2,8 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="464b1be0-76cf-4515-95a2-7f79df6452dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springboot/webservice/web/dto/HelloResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-real.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/web/dto/HelloResponseDtoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/springboot/webservice/domain/posts/PostsRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/springboot/webservice/domain/posts/PostsRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/springboot/webservice/web/HelloControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/springboot/webservice/web/HelloControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/springboot/webservice/web/IndexControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/springboot/webservice/web/IndexControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/springboot/webservice/web/PostsApiControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/springboot/webservice/web/PostsApiControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.springboot.webservice.web.HelloControllerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.springboot.webservice.web.HelloControllerTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.springboot.webservice.web.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.springboot.webservice.web.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.springboot.webservice.web.HelloControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.springboot.webservice.web.HelloControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/domain/posts/PostsRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/domain/posts/PostsRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/web/HelloControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/web/HelloControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/web/IndexControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/web/IndexControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/web/PostsApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springboot/webservice/web/PostsApiControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,13 +134,14 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -126,7 +156,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HelloControllerTest">
+  <component name="RunManager" selected="Gradle.SpringBoot-WebTutorial [test]">
     <configuration name="HelloControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -147,12 +177,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IndexControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HelloControllerTest.helloDto가_리턴된다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.springboot.webservice.web.IndexControllerTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.springboot.webservice.web.HelloControllerTest.helloDto가_리턴된다&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -167,23 +197,44 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SpringBoot-WebTutorial [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HelloControllerTest.return_hello" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--tests &quot;com.springboot.webservice.web.HelloControllerTest.return_hello&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="dependencies" />
+            <option value=":cleanTest" />
+            <option value=":test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="HelloResponseDtoTest.롬복_테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.springboot.webservice.web.dto.HelloResponseDtoTest.롬복_테스트&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="SpringBoot-WebTutorial [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -205,25 +256,13 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot-webservice-tutorial.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springboot.webservice.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.webservice.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HelloControllerTest" />
         <item itemvalue="Gradle.SpringBoot-WebTutorial [test]" />
-        <item itemvalue="Gradle.IndexControllerTest" />
-        <item itemvalue="Gradle.SpringBoot-WebTutorial [dependencies]" />
+        <item itemvalue="Gradle.HelloControllerTest" />
+        <item itemvalue="Gradle.HelloControllerTest.helloDto가_리턴된다" />
+        <item itemvalue="Gradle.HelloControllerTest.return_hello" />
+        <item itemvalue="Gradle.HelloResponseDtoTest.롬복_테스트" />
       </list>
     </recent_temporary>
   </component>
@@ -259,11 +298,12 @@
       <workItem from="1597118283489" duration="93000" />
       <workItem from="1597118644995" duration="44000" />
       <workItem from="1597197377841" duration="53000" />
+      <workItem from="1597282995962" duration="4712000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75465000" />
+    <option name="totallyTimeSpent" value="80177000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -300,34 +340,35 @@
     </state>
     <state x="472" y="337" key="DBNavigator.ResultSetRecordViewerDialog/0.23.1440.827@0.23.1440.827" timestamp="1597129110993" />
     <state x="472" y="337" key="DBNavigator.ResultSetRecordViewerDialog/0.23.1440.828@0.23.1440.828" timestamp="1597205192149" />
-    <state width="1358" height="117" key="GridCell.Tab.0.bottom" timestamp="1597215861962">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="1398" height="252" key="GridCell.Tab.0.bottom" timestamp="1597290099785">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1358" height="117" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1597205185123" />
+    <state width="1398" height="252" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1597290099785" />
     <state width="1358" height="117" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1597215861962" />
-    <state width="1358" height="117" key="GridCell.Tab.0.center" timestamp="1597215861960">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="1398" height="252" key="GridCell.Tab.0.center" timestamp="1597290099784">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1358" height="117" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1597205185122" />
+    <state width="1398" height="252" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1597290099784" />
     <state width="1358" height="117" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1597215861960" />
-    <state width="1358" height="117" key="GridCell.Tab.0.left" timestamp="1597215861959">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="1398" height="252" key="GridCell.Tab.0.left" timestamp="1597290099783">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1358" height="117" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1597205185121" />
+    <state width="1398" height="252" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1597290099783" />
     <state width="1358" height="117" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1597215861959" />
-    <state width="1358" height="117" key="GridCell.Tab.0.right" timestamp="1597215861961">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="1398" height="252" key="GridCell.Tab.0.right" timestamp="1597290099784">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1358" height="117" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1597205185122" />
+    <state width="1398" height="252" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1597290099784" />
     <state width="1358" height="117" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1597215861961" />
     <state x="229" y="75" key="SettingsEditor" timestamp="1597119136686">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="229" y="75" key="SettingsEditor/0.23.1440.827@0.23.1440.827" timestamp="1597119136686" />
-    <state x="385" y="174" width="670" height="678" key="search.everywhere.popup" timestamp="1597255211328">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state x="385" y="174" width="670" height="678" key="search.everywhere.popup" timestamp="1597292209832">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="385" y="174" width="670" height="676" key="search.everywhere.popup/0.23.1440.827@0.23.1440.827" timestamp="1597119231164" />
+    <state x="385" y="174" width="670" height="678" key="search.everywhere.popup/0.23.1440.828@0.23.1440.828" timestamp="1597292209832" />
     <state x="385" y="174" width="670" height="678" key="search.everywhere.popup/0.23.1440.829@0.23.1440.829" timestamp="1597255211328" />
   </component>
   <component name="antWorkspaceConfiguration">
